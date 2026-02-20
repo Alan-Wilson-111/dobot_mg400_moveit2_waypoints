@@ -28,7 +28,7 @@ source install/setup.bash
 ## Launch MoveIt2 + RViz
 
 ```bash
-ros2 launch mg400_moveit_waypoints demo.launch.py
+ros2 launch mg400_moveit_waypoints mg400.launch.py
 ```
 
 In a separate terminal, start the parallel linkage compensation (keeps the SCARA linkage visually correct):
